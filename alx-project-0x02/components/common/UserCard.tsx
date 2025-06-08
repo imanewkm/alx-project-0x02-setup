@@ -28,8 +28,8 @@ const UserCard: React.FC<{ user: UserProps }> = ({ user }) => {
                 <div>
                     <p className="text-sm font-medium text-gray-800">Address:</p>
                     <div className="text-gray-900">
-                        <p>{user.Address.street}, {user.Address.suite}</p>
-                        <p>{user.Address.city}, {user.Address.zipcode}</p>
+                        <p>{user.address.street}, {user.address.suite}</p>
+                        <p>{user.address.city}, {user.address.zipcode}</p>
                     </div>
                 </div>
             </div>
