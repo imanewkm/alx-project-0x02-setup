@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '@/components/common/Button';
 
 const About: React.FC = () => {
     return (
@@ -15,10 +16,22 @@ const About: React.FC = () => {
                 </p>
                 <div className="mt-8">
                     <h2 className="text-2xl font-semibold mb-4">Our Mission</h2>
-                    <p className="text-lg">
+                    <p className="text-lg mb-6">
                         To deliver high-quality products and services that exceed customer 
                         expectations while fostering innovation and growth.
                     </p>
+                    
+                    <div className="flex flex-wrap gap-4 mt-6">
+                        <Button size="small" shape="rounded-sm">
+                            Learn More
+                        </Button>
+                        <Button size="medium" shape="rounded-md">
+                            Contact Us
+                        </Button>
+                        <Button size="large" shape="rounded-full">
+                            Join Team
+                        </Button>
+                    </div>
                 </div>
             </div>
         </div>
