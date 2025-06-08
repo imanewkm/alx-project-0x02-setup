@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { GetStaticProps } from 'next';
+import React, { useState, useEffect, Component } from 'react';
 import Header from '@/components/layout/Header';
 import PostModal from '@/components/common/PostModal';
 import { PostCard } from '@/components/common/PostCard';
