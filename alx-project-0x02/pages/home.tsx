@@ -18,12 +18,16 @@ const Home: React.FC = () => {
                     <h1 className="text-4xl font-bold text-gray-800 mb-4">
                         Welcome to Our Website
                     </h1>
-                    <p className="text-xl text-gray-600">Your journey starts here</p>
+                    <p className="text-xl text-gray-600">
+                        Your journey starts here
+                    </p>
                 </header>
 
                 <main className="max-w-4xl mx-auto">
                     <section className="bg-white rounded-lg shadow-md p-8 mb-8">
-                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">About Us</h2>
+                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">
+                            About Us
+                        </h2>
                         <p className="text-gray-600 leading-relaxed">
                             We're dedicated to providing exceptional experiences and solutions
                             that meet your needs. Our team is committed to excellence and
