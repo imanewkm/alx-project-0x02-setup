@@ -1,14 +1,5 @@
 import React from 'react';
-import { CardProps } from '@/interfaces/index';
-
-const Card: React.FC<CardProps> = ({ title, content }) => {
-    return (
-        <div className="bg-white rounded-lg shadow-md p-6">
-            <h3 className="text-xl font-semibold text-gray-800 mb-3">{title}</h3>
-            <p className="text-gray-600">{content}</p>
-        </div>
-    );
-};
+import Card from '@/components/common/Card';
 
 const Home: React.FC = () => {
     return (
@@ -43,6 +34,14 @@ const Home: React.FC = () => {
                         <Card
                             title="Get Started"
                             content="Ready to begin? Contact us today and let's start your journey together."
+                        />
+                        <Card
+                            title="Our Mission"
+                            content="We aim to empower individuals and organizations through innovative solutions."
+                        />
+                        <Card
+                            title="Contact Us"
+                            content="Have questions? Reach out to us and we'll be happy to assist you."
                         />
                     </section>
                 </main>

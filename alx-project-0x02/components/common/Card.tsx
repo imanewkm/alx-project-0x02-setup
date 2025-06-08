@@ -1,7 +1,7 @@
 import React from 'react';
 import { type CardProps } from '@/interfaces/index';
 
-const Card: React.FC<CardProps> = ({ title, content }) => {
+export const Card: React.FC<CardProps> = ({ title, content }) => {
     return (
         <div style={styles.card}>
             <h2 style={styles.title}>{title}</h2>
